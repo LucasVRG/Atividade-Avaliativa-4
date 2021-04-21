@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+	crossorigin="anonymous">
+
+<title>Top Eletro</title>
+<style>
+body {background-color: SlateBlue;}
+</style>
+</head>
+
+<body>
+	<header>
+		<nav class="navbar navbar-light bg-dark">
+			<div>
+				<img class="mr-3" src="https://img.freepik.com/vetores-gratis/logo-abstract-maze-com-letra-e_1032-86.jpg?size=100&ext=jpg" alt="Logo">
+			<a class="navbar-brand text-white" href="#">Top Eletro</a>
+      </div>
+      <ul class="nav">
+  <li class="nav-item text-center">
+    <a class="nav-link active" aria-current="page" href="https://avdevhtml.lucasvanderson.repl.co/">Inicio</a>
+  </li>
+  <form action="/action_page.php">
+  <label for="fname">Usuario:</label><br>
+  <input type="text" id="fname" name="fname" value="Usuario"><br>
+  <label for="lname">Senha:</label><br>
+  <input type="text" id="lname" name="lname" value="Senha"><br><br>
+  <input type="submit" value="Entrar">
+</form>
+  
+  <li class="nav-item">
+    <a class="nav-link" href="#">Meu carrinho</a>
+  </li>
+  
+
+</ul>
+		</nav>
+	</header>
+	<section>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://source.unsplash.com/1200x300/?Headset" class="d-block w-100" alt="fones">
+    </div>
+    <div class="carousel-item">
+      <img src="https://source.unsplash.com/1200x300/?Smart Eletro" class="d-block w-100" alt="diversos">
+    </div>
+    <div class="carousel-item">
+      <img src="https://source.unsplash.com/1200x300/?gamer" class="d-block w-100" alt="games em geral">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+	<section>
+<div class="container mb-5">
+  <div class="row">
+    <div class="col-sm-12 text-dark text-center my-3">
+      <h1>Produtos</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="card border-dark">
+       <img src="https://a-static.mlcdn.com.br/300x200/pc-gamer-intel-core-i5-9600kf-nona-geracao-geforce-rtx-2060-6gb-ram-8gb-ddr4-hd-2tb-600w-80-plus-skill-hightech-skill-gaming/skill/32685/c6b7f4c8ac29eb1c451606819d0edcf4.jpg" class="card-img-top" alt="...">
+       <div class="card-body">
+        <h5 class="card-title">PC Gamer Intel Core i5 9600KF </h5>
+        <p class="card-text">Intel Core i5 9600KF Nona Geração (Geforce RTX 2060 6GB) RAM 8GB DDR4 HD 2TB 600W 80 Plus</p>
+        <a href="https://m.magazineluiza.com.br/pc-gamer-intel-core-i5-9600kf-nona-geracao-geforce-rtx-2060-6gb-ram-8gb-ddr4-hd-2tb-600w-80-plus-skill-hightech-skill-gaming/p/gdh0hkkg06/in/cptg/" class="btn btn-danger">Comprar</a>
+       </div>
+       </div>
+     </div>
+     <div class="col-sm-4">
+      <div class="card border-dark">
+       <img src="https://www.pontofrio-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=1233514143" class="card-img-top" alt="...">
+       <div class="card-body">
+        <h5 class="card-title">A Smart TV AOC Roku 43" Full HD</h5>
+        <p class="card-text">A Smart TV AOC Roku conta com o aplicativo gratuito Roku Mobile onde é possível controlar a TV através do seu Smartphone!</p>
+        <a href="https://www.pontofrio.com.br/aoc-roku-tv-smart-tv-led-43-full-hd-43s5195-78-com-wi-fi-controle-remoto-com-atalhos-roku-mobile-miracast-entradas-hdmi-e-usb/p/55002769" class="btn btn-danger">Comprar</a>
+       </div>
+       </div>
+     </div>
+     <div class="col-sm-4">
+      <div class="card border-dark">
+       <img src="https://43301.cdn.simplo7.net/static/43301/sku/xaiomi-redmi-note-8-celular-smartphone-xiaomi-redmi-note-8-dual-128gb-global-preto--p-1602020743592.jpg" class="card-img-top" alt="...">
+       <div class="card-body">
+        <h5 class="card-title">Redmi Note 8</h5>
+        <p class="card-text">64GB, lhe oferece alto desempenho e sua bateria se encarrega de lhe garantir muitas horas conectado.</p>
+        <a href="https://www.colombo.com.br/produto/Smartphones/Smartphone-Xiaomi-Redmi-note-8-64GB-4GB-RAM-Preto-Versao-Global" class="btn btn-danger">Comprar</a>
+       </div>
+       </div>
+     </div>
+  </div>
+</div>
+</section>
+	<footer>
+     <div class="container-fluid bg-dark">
+       <div class="row">
+         <div class="col-sm-12 text-white">
+          <p>Distribuidora de produtos eletrônicos</p>
+          <p class="text-center mb-5">Contato:(21)9xxxx-xxxx</p>
+          <p>
+            © 2021 Top Eletro
+          </p>
+         </div>
+       </div>
+     </div>
+  </footer>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+	 crossorigin="anonymous">
+
+	</script>
+
+
+</body>
+
+</html>
